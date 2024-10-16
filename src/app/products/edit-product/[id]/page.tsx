@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation'
 import { doc, getDoc } from 'firebase/firestore'
 import { db } from '@/lib/firebaseClient'
 import { Product } from '@/lib/types'
-import ProductForm from '@/app/components/ProductForm'
+import ProductForm from '@/components/ProductForm'
 
 export default function EditProduct() {
   const { id } = useParams()
